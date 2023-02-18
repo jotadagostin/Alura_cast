@@ -1,0 +1,23 @@
+.secao {
+    display: grid;
+    align-items: center;
+}
+
+.secao-horizontal {
+    grid-template-rows: 120px auto;
+}
+    
+
+.secao-vertical {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr 2fr;
+    
+}
+
+.secao-vertical .secao-cartoes {
+    grid-column: 1/3;
+}
+
+.secao-horizontal .cartao__titulo {
+    align-self: end;
+}
