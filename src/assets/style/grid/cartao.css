@@ -8,4 +8,14 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
+    /* grid-area: 1/1/4/2; * short hand 1/
+
+    /* grid-column: 1/2; short hand 2
+    grid-row: 1/4; */
+}
+
+.secao-horizontal .cartao__botao {
+    grid-column: 3/4;
+    grid-row: 1/4;
+
 }
